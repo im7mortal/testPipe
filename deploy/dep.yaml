@@ -28,7 +28,7 @@ spec:
         app: guestbook-ui-1
     spec:
       containers:
-        - image: tiangolo/uwsgi-nginx-flask:python3.8
+        - image: tiangolo/uvicorn-gunicorn-fastapi
           name: guestbook-ui
           ports:
             - containerPort: 80

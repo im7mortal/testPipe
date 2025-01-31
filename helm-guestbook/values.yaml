@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  tag: 0.1
-  pullPolicy: IfNotPresent
+  repository: im7mortal/release-analyzer
+  tag: staging
+  pullPolicy: Always
 
 containerPort: 80
 

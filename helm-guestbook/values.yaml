@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: im7mortal/release-analyzer
+  repository: fooalias
+  tag: staging
   pullPolicy: Always
 
 containerPort: 80

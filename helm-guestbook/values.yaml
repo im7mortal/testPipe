@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: im7mortal/release-analyzer
+  repository: myimage
   tag: staging
   pullPolicy: Always
 

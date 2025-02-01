@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: fooalias
+  repository: fooalias:staging
   tag: staging
   pullPolicy: Always
 

@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: fooalias
+  repository: im7mortal/release-analyzer
   tag: staging
   pullPolicy: Always
 

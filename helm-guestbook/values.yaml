@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: myimage
-  tag: staging
+#  tag: staging
   pullPolicy: Always
 
 containerPort: 80
